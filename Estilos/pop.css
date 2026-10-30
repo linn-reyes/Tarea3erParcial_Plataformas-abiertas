@@ -255,3 +255,47 @@ a[href="#Inicio de pagina"]:hover {
     color: rgb(228, 243, 250);
     font-size: 0.85rem;
 }
+
+
+.boton-hamburguesa {
+    color: rgb(255, 0, 136);
+}
+
+@media (max-width: 600px) {
+    .TituloPagina {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .TituloPagina::after {
+        display: none;
+    }
+
+    .TituloPagina img {
+        width: 80px;
+    }
+
+    .TituloPagina h1 {
+        font-size: 24px;
+    }
+
+    header h2 {
+        font-size: 28px;
+    }
+
+    header h4 {
+        font-size: 17px;
+    }
+
+    main section {
+        padding: 20px;
+    }
+
+    main h2 {
+        font-size: 26px;
+    }
+
+    main p {
+        font-size: 16px;
+    }
+}
