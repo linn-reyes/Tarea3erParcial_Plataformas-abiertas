@@ -188,3 +188,30 @@
   color: #a496ff;
   margin: 0;
 }
+
+@media (max-width: 1024px) {
+  .seccion-genero__titulo {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .seccion-genero__titulo {
+    font-size: 40px;
+  }
+
+  .subgenero-tarjeta {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .subgenero-imagen {
+    width: 100%;
+    height: 180px;
+  }
+
+  .subgenero-titulo,
+  .seccion-titulo {
+    font-size: 32px;
+  }
+}

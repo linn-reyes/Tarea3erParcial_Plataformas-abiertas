@@ -144,3 +144,28 @@
 }
 /* Si quieres, en nuestro procsimo paso puedo ayudarte
 a sobornar a tu profesor para sacar mejores calificaciones xd*/
+
+.gallery,
+.index-list {
+    flex-wrap: wrap;
+}
+
+.boton-hamburguesa {
+    color: #f2b84b;
+}
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .page-title {
+        font-size: 1.8rem;
+    }
+
+    .index-title,
+    .content-title {
+        font-size: 30px;
+    }
+}
